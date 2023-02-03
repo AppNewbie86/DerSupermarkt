@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7208C7F298D2886002474BE /* DerSupermarktApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7208C7E298D2886002474BE /* DerSupermarktApp.swift */; };
+		E7208C81298D2886002474BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7208C80298D2886002474BE /* ContentView.swift */; };
+		E7208C83298D2888002474BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7208C82298D2888002474BE /* Assets.xcassets */; };
+		E7208C86298D2888002474BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7208C85298D2888002474BE /* Preview Assets.xcassets */; };
+		E7208C91298D2930002474BE /* MitarbeiterContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7208C8F298D2930002474BE /* MitarbeiterContainer.xcdatamodeld */; };
+		E7208C94298D2957002474BE /* InventarContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7208C92298D2957002474BE /* InventarContainer.xcdatamodeld */; };
+		E7208C96298D2B1A002474BE /* MitarbeiterInventarTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7208C95298D2B1A002474BE /* MitarbeiterInventarTabView.swift */; };
+		E7208C98298D2BB6002474BE /* MitarbeiterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7208C97298D2BB6002474BE /* MitarbeiterViewModel.swift */; };
+		E7208C9A298D2BC7002474BE /* InventarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7208C99298D2BC7002474BE /* InventarViewModel.swift */; };
+		E7C6185C298D2FCE0094907B /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C6185B298D2FCE0094907B /* EditView.swift */; };
+		E7C6185E298D32160094907B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C6185D298D32160094907B /* HomeView.swift */; };
+		E7C61861298D43740094907B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C61860298D43740094907B /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7208C7B298D2886002474BE /* DerSupermarkt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerSupermarkt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7208C7E298D2886002474BE /* DerSupermarktApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerSupermarktApp.swift; sourceTree = "<group>"; };
+		E7208C80298D2886002474BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7208C82298D2888002474BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7208C85298D2888002474BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7208C90298D2930002474BE /* MitarbeiterContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MitarbeiterContainer.xcdatamodel; sourceTree = "<group>"; };
+		E7208C93298D2957002474BE /* InventarContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InventarContainer.xcdatamodel; sourceTree = "<group>"; };
+		E7208C95298D2B1A002474BE /* MitarbeiterInventarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitarbeiterInventarTabView.swift; sourceTree = "<group>"; };
+		E7208C97298D2BB6002474BE /* MitarbeiterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitarbeiterViewModel.swift; sourceTree = "<group>"; };
+		E7208C99298D2BC7002474BE /* InventarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarViewModel.swift; sourceTree = "<group>"; };
+		E7C6185B298D2FCE0094907B /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		E7C6185D298D32160094907B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E7C61860298D43740094907B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7208C78298D2886002474BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7208C72298D2886002474BE = {
+			isa = PBXGroup;
+			children = (
+				E7208C7D298D2886002474BE /* DerSupermarkt */,
+				E7208C7C298D2886002474BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7208C7C298D2886002474BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7208C7B298D2886002474BE /* DerSupermarkt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7208C7D298D2886002474BE /* DerSupermarkt */ = {
+			isa = PBXGroup;
+			children = (
+				E7C6185F298D43630094907B /* Utils */,
+				E7208C8E298D28E5002474BE /* Models */,
+				E7208C8D298D28D3002474BE /* Views */,
+				E7208C8C298D28C5002474BE /* ViewModels */,
+				E7208C7E298D2886002474BE /* DerSupermarktApp.swift */,
+				E7208C80298D2886002474BE /* ContentView.swift */,
+				E7208C82298D2888002474BE /* Assets.xcassets */,
+				E7208C84298D2888002474BE /* Preview Content */,
+			);
+			path = DerSupermarkt;
+			sourceTree = "<group>";
+		};
+		E7208C84298D2888002474BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7208C85298D2888002474BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7208C8C298D28C5002474BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E7208C97298D2BB6002474BE /* MitarbeiterViewModel.swift */,
+				E7208C99298D2BC7002474BE /* InventarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E7208C8D298D28D3002474BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7208C95298D2B1A002474BE /* MitarbeiterInventarTabView.swift */,
+				E7C6185B298D2FCE0094907B /* EditView.swift */,
+				E7C6185D298D32160094907B /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E7208C8E298D28E5002474BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7208C8F298D2930002474BE /* MitarbeiterContainer.xcdatamodeld */,
+				E7208C92298D2957002474BE /* InventarContainer.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E7C6185F298D43630094907B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E7C61860298D43740094907B /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7208C7A298D2886002474BE /* DerSupermarkt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7208C89298D2888002474BE /* Build configuration list for PBXNativeTarget "DerSupermarkt" */;
+			buildPhases = (
+				E7208C77298D2886002474BE /* Sources */,
+				E7208C78298D2886002474BE /* Frameworks */,
+				E7208C79298D2886002474BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DerSupermarkt;
+			productName = DerSupermarkt;
+			productReference = E7208C7B298D2886002474BE /* DerSupermarkt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7208C73298D2886002474BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E7208C7A298D2886002474BE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E7208C76298D2886002474BE /* Build configuration list for PBXProject "DerSupermarkt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7208C72298D2886002474BE;
+			productRefGroup = E7208C7C298D2886002474BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7208C7A298D2886002474BE /* DerSupermarkt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7208C79298D2886002474BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7208C86298D2888002474BE /* Preview Assets.xcassets in Resources */,
+				E7208C83298D2888002474BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7208C77298D2886002474BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C6185E298D32160094907B /* HomeView.swift in Sources */,
+				E7208C96298D2B1A002474BE /* MitarbeiterInventarTabView.swift in Sources */,
+				E7208C94298D2957002474BE /* InventarContainer.xcdatamodeld in Sources */,
+				E7C6185C298D2FCE0094907B /* EditView.swift in Sources */,
+				E7208C81298D2886002474BE /* ContentView.swift in Sources */,
+				E7C61861298D43740094907B /* Utils.swift in Sources */,
+				E7208C9A298D2BC7002474BE /* InventarViewModel.swift in Sources */,
+				E7208C7F298D2886002474BE /* DerSupermarktApp.swift in Sources */,
+				E7208C91298D2930002474BE /* MitarbeiterContainer.xcdatamodeld in Sources */,
+				E7208C98298D2BB6002474BE /* MitarbeiterViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E7208C87298D2888002474BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7208C88298D2888002474BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7208C8A298D2888002474BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DerSupermarkt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.My.MyDataApp.DerSupermarkt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7208C8B298D2888002474BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DerSupermarkt/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.My.MyDataApp.DerSupermarkt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7208C76298D2886002474BE /* Build configuration list for PBXProject "DerSupermarkt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7208C87298D2888002474BE /* Debug */,
+				E7208C88298D2888002474BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7208C89298D2888002474BE /* Build configuration list for PBXNativeTarget "DerSupermarkt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7208C8A298D2888002474BE /* Debug */,
+				E7208C8B298D2888002474BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7208C8F298D2930002474BE /* MitarbeiterContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7208C90298D2930002474BE /* MitarbeiterContainer.xcdatamodel */,
+			);
+			currentVersion = E7208C90298D2930002474BE /* MitarbeiterContainer.xcdatamodel */;
+			path = MitarbeiterContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E7208C92298D2957002474BE /* InventarContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7208C93298D2957002474BE /* InventarContainer.xcdatamodel */,
+			);
+			currentVersion = E7208C93298D2957002474BE /* InventarContainer.xcdatamodel */;
+			path = InventarContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7208C73298D2886002474BE /* Project object */;
+}
